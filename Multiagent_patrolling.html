@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Research Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="All_projects.html">All Projects</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li>
+								<a href="All_projects.html">My Projects</a>
+								<ul>
+									<li><a href="Multiagent_patrolling.html">Multiagent Patrolling</a></li>
+									<li><a href="Driverless_car.html">Self Driving Car</a></li>
+									<li><a href="Autonomous_quadruped.html">Autonomous Quadruped</a></li>
+									<li><a href="Terrace_Farming_bot.html">Terrace Farming Bot</a></li>
+									<li><a href="Miscellaneous.html">Miscellaneous</a></li>
+								</ul>
+							</li>
+							<li><a href="assets/apping_resume.pdf">Resume</a></li>
+							<li><a href="assets/LOR.pdf">LOR</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Multi Agent Patrolling</h2>
+							<p>Guides: <a href="https://www.sc.iitb.ac.in/~leena/">Prof. Leena Vachhani</a> & <a href="https://www.sc.iitb.ac.in/~asinha/">Prof. Arpita Sinha</a></p>
+						</header>
+						<div class="row gtr-150">
+							<div class="col-6 col-12-medium">
+
+								<!-- Sidebar -->
+									<section id="sidebar">
+										<section>
+                                            <h3>Project Description</h3>
+											<p>
+                                                Patrolling means the act of walking or traveling around an area, at regular intervals,
+                                                to protect or supervise it. Given a graph, the patrolling task refers to continuously
+                                                visiting all the graph nodes to minimize the time lag between two visits. We have to design an automated
+                                                patrolling system with multiple agents to monitor a given environment with nodes of interest of varying priorities. 
+                                                A group of students is working on the simulation part of this project, given by the
+                                                <a href="https://www.drdo.gov.in/home"> DRDO, India</a>. They will do the hardware
+                                                aspect of this project. This project's main objective is to prevent the innocent
+                                                lives of many soldiers who are at the borders working at their top edge and died
+                                                while patrolling manually. So, instead of them, an autonomous car will do this 
+                                                task and keep a keen observation on the movement of enemies.
+                                            </p>
+										</section>
+										<hr />
+										<section>
+											<h3>My contributions till date</h3>
+												<ul>
+                                                    <li>Applied Conscientious Reactive architecture with emergent coordination startegy for reducing idleness using TraCi library in a realisitc traffic simulator - Simulation of Urban MObility (SUMO)</li>
+                                                    <li>Got the expected results for the symmetrical maps, i.e. all nodes are equidistant, of minimizing the idleness  in a long run</li>
+                                                    <li>Formulated an path planning algorithm which will allow smooth movement on any curved road and the junctions</li>
+                                                    <li>Verified the results of the algorithm by creating an interface between <b>Webots</b> & <b>ROS</b>, and implemented it on the CAIR map</li>
+                                                    <li>Incorporated static & dynamic obstacle avoidance in the algorithm</li>
+													
+												</ul>
+                                        </section>
+                                        <hr />
+                                        <section>
+                                            <h3>Future work</h3>
+                                                <ul>
+                                                
+                                                    <li>Design the patrolling algorithm using Deep Q Network Reinforcement learning technique with GBLA architecture</li>
+                                                    <li>Incorporate the effect of priority nodes in the map while maneuvering</li>
+                                                    <li>Improve the results of Conscientious Reactive in case of larger number of cars in assymetrical grids.</li>
+                                                </ul>
+                                        </section>
+                                        
+									</section>
+
+							</div>
+							<div class="col-6 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<section id="content">
+                    
+                                        <img src="images/MAP.jpg" width="700" height="400" />
+                                        <br><br>
+                                        <img src="images/CAIR_mod_3.png" width="700" height="400" alt="" />
+                                        <br><br>
+                                        <img src="images/MAP.png" width="700" height="400" />
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						
+						<li><a href="https://www.facebook.com/dikshant.shehmar" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/__dikshant_/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/Dikshuy" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/dikshant-shehmar-a95956174/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Dikshant homepage</li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
