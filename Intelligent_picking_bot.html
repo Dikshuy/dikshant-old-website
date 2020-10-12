@@ -38,7 +38,7 @@
 					<div class="container">
 						<header class="major">
 							<h2>Intelligent Picking Bot</h2>
-							<p>Flipkart Robotics Challenge</p>
+							<p><a href="https://dare2compete.com/o/flipkart-grid-20-robotics-challenge-flipkart-grid-20-flipkart-113687">Flipkart Robotics Challenge</a></p>
 						</header>
 						<div class="row gtr-150">
 							<div class="col-6 col-12-medium">
@@ -47,42 +47,25 @@
 									<section id="sidebar">
 										<section>
                                             <h3>Project Description</h3>
-											<p>
-                                                Patrolling means the act of walking or traveling around an area, at regular intervals,
-                                                to protect or supervise it. Given a graph, the patrolling task refers to continuously
-                                                visiting all the graph nodes to minimize the time lag between two visits. We have to design an automated
-                                                patrolling system with multiple agents to monitor a given environment with nodes of interest of varying priorities. 
-                                                A group of students is working on the simulation part of this project, given by the
-                                                <a href="https://www.drdo.gov.in/home"> DRDO, India</a>. They will do the hardware
-                                                aspect of this project. This project's main objective is to prevent the innocent
-                                                lives of many soldiers who are at the borders working at their top edge and died
-                                                while patrolling manually. So, instead of them, an autonomous car will do this 
-                                                task and keep a keen observation on the movement of enemies.
+											<p>This problem statement tries to replicate the quintessential warehouse problem of picking in which the
+                                                participants are supposed to build their own robot hardware and software (collectively, a “Robot”) that is
+                                                capable of doing general tasks of picking items from a pick area and place them into a cell in th drop/stow
+                                                area. There are few households objects at a height of 100cm from the ground on a table, which is termed as the pick up area. We have to design a mechanism which can 
+                                                pick up these objects and then put them in a stow area in a particular manner. <br>
+                                                <a href="assets/Flipkart-PS.pdf">Problem statement</a>
                                             </p>
 										</section>
 										<hr />
 										<section>
-											<h3>My contributions till date</h3>
+											<h3>My contributions</h3>
 												<ul>
-                                                    <li>Applied Conscientious Reactive architecture with emergent coordination startegy for reducing idleness using TraCi library in a realisitc traffic simulator - Simulation of Urban MObility (SUMO)</li>
-                                                    <li>Got the expected results for the symmetrical maps, i.e. all nodes are equidistant, of minimizing the idleness  in a long run</li>
-                                                    <li>Formulated an path planning algorithm which will allow smooth movement on any curved road and the junctions</li>
-                                                    <li>Verified the results of the algorithm by creating an interface between <b>Webots</b> & <b>ROS</b>, and implemented it on the CAIR map</li>
-                                                    <li>Incorporated static & dynamic obstacle avoidance in the algorithm</li>
-													
+                                                    <li>Created the dataset for object detection by using variuos transformations and filtering techniques on household objects</li>
+                                                    <li>Used YOLO algorithm for object detection and openCV techniques for detecting the grasp point of the object </li>
+                                                    <li>Built a custom bot in gazebo which mapped the area around the picking and stowing area</li>
+                                                    <li>Used A* algorithm for finding the optimal path planning between pick and stow positions</li>
+                                                    <li>Aided in building the robotic arm and simulating it on Rviz using MoveIT package</li>
 												</ul>
                                         </section>
-                                        <hr />
-                                        <section>
-                                            <h3>Future work</h3>
-                                                <ul>
-                                                
-                                                    <li>Design the patrolling algorithm using Deep Q Network Reinforcement learning technique with GBLA architecture</li>
-                                                    <li>Incorporate the effect of priority nodes in the map while maneuvering</li>
-                                                    <li>Improve the results of Conscientious Reactive in case of larger number of cars in assymetrical grids.</li>
-                                                </ul>
-                                        </section>
-                                        
 									</section>
 
 							</div>
@@ -91,11 +74,7 @@
 								<!-- Content -->
 									<section id="content">
                     
-                                        <a href="#" class="image fit"><img src="images/MAP.jpg" alt="" /></a>
-                                        <br>
-                                        <a href="#" class="image fit"><img src="images/CAIR_mod_3.png"  alt="" /></a>
-                                        <br>
-                                        <a href="#" class="image fit"><img src="images/MAP.png" alt="" /></a>
+                                        <a href="#" class="image fit"><img src="images/arm.jpeg" alt="" /></a>
 									</section>
 
 							</div>
