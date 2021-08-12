@@ -3,6 +3,10 @@
 
 It contain some resources that maybe useful to you. Feel free to reach me out for any clarfication 🙃
 
+### Latest update on august 12, 2021
+---
 
+Built using: 
 Landed by HTML5 UP
-html5up.net | @ajlkn
+
+[html5up.net](https://html5up.net/) | @ajlkn
