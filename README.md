@@ -1,7 +1,7 @@
 ### Website
 [Link](https://dikshuy.github.io/dikshant) to the website
 
-It contain some resources that maybe useful to you. Feel free to reach me out for any clarfication 🙃
+It contain some resources that maybe useful to you. Feel free to reach me out for any clarifications 🙃
 
 ### Latest update on august 12, 2021
 ---
